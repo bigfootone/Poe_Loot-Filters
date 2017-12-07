@@ -1,0 +1,294 @@
+Show #Regen Flasks
+	Class "Life Flask" "Mana Flask" 
+	SetFontSize 25
+Show #Utility Flasks
+	Class "Utility Flasks" "Critical Utility Flasks"
+Show #Lab Stuff
+	Class "Labyrinth Item" "Labyrinth Trinket" "Labyrinth Map Item"
+Show #Unique Items
+	Rarity Unique
+	SetBorderColor  175 96 37 
+	PlayAlertSound 1 100
+Show #Misc Currency
+	Class "Currency"
+	BaseType "Essence" "Remnant of Corruption" "Silver Coin"
+	SetBackgroundColor 74 0 160
+	SetBorderColor 74 0 160
+	SetTextColor 74 230 58
+Show #Basic Sextant
+	Class "Currency"
+	BaseType "Apprentice Cartographer's Sextant"
+	SetBackgroundColor 200 200 200
+	SetBorderColor 42 42 42
+	SetTextColor 0 0 0
+Show #Med Sextant
+	Class "Currency"
+	BaseType "Journeyman Cartographer's Sextant"
+	SetBackgroundColor 255 255 119
+	SetBorderColor 42 42 42
+	SetTextColor 0 0 0
+Show #Top Sextant
+	Class "Currency"
+	BaseType "Master Cartographer's Sextant"
+	SetBackgroundColor 150 0 0
+	SetBorderColor 0 0 0
+	SetTextColor 255 255 255
+	SetFontSize 42
+Show #Shaper Orb
+	Class "Quest Items"
+	BaseType "Shaper's Orb"
+	SetBorderColor 255 255 119
+	SetTextColor 255 255 119
+Show #Quest items
+	Class "Quest Items"	
+	SetBackgroundColor 144 0 83
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 40
+	PlayAlertSound 2 100
+Show #Chaos Orbs
+	BaseType "Chaos Orb"
+	SetFontSize 45
+	SetBorderColor 255 255 119
+	SetTextColor 255 255 119	
+	PlayAlertSound 6 100
+Show #Expensive Currency 
+	BaseType  "Exalted Orb" "Mirror of Kalandra" "Divine Orb" "Ancient Reliquary Key" "Orb of Annulment"
+	SetFontSize 45
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 0
+	SetTextColor 42 42 42
+	PlayAlertSound 5 100
+Show #Harbinger Currency
+	BaseType "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Orb of Annulment" "Orb of Binding" "Orb of Horizons" "Harbinger's Orb" "Engineer's Orb" "Ancient Orb" "Regal Shard" "Chaos Shard"
+	SetBackgroundColor 255 255 119 
+	SetTextColor 0 0 0
+	SetFontSize 40
+	SetBorderColor 255 255 255
+Show #Divine Vessels
+	Class "Map Fragments"
+	BaseType "Divine Vessel"
+	SetBackgroundColor 0 191 0
+	SetBorderColor 0 191 0
+	SetTextColor 42 42 42
+	PlayAlertSound 1 100 						
+Show #Expensive Shards
+	BaseType "Mirror Shard" "Exalted Shard" "Ancient Shard"
+	SetBackgroundColor 255 255 255
+	SetBorderColor 0 0 0				
+Show #Standard Currencies
+	BaseType "Orb of Alchemy" "Orb of Chance" "Blessed Orb" "Regal Orb" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Glassblower's Bauble" "Gemcutter's Prism" "Cartographer's Chisel" "Orb of Scouring" "Stacked Deck" "Chromatic Orb" 
+	SetFontSize 40
+	SetBackgroundColor 136 136 255
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+Show #Xoph Splinters
+	Class "Stackable Currency"
+	BaseType "Xoph"
+	SetBorderColor 255 0 0 
+	SetBackgroundColor 255 0 0
+	SetFontSize 45
+	SetTextColor 0 0 0
+Show #Tul Splinters
+	Class "Stackable Currency"
+	BaseType "Tul"
+	SetBorderColor 211 211 211 
+	SetBackgroundColor 211 211 211
+	SetFontSize 45
+	SetTextColor 0 0 0
+Show #Esh Splinters
+	Class "Stackable Currency"
+	BaseType "Esh"
+	SetBorderColor 0 0 255
+	SetBackgroundColor 0 0 255
+	SetFontSize 45
+	SetTextColor 0 0 0
+Show #Uul-Netol  Splinters
+	Class "Stackable Currency"
+	BaseType "Uul"
+	SetBorderColor 0 0 0
+	SetBackgroundColor 0 0 0
+	SetFontSize 45
+	SetTextColor 255 255 255
+Show #Chayula Splinters
+	Class "Stackable Currency"
+	BaseType "Chayula"
+	SetBorderColor 85 26 139
+	SetBackgroundColor 85 26 139
+	SetFontSize 45
+	SetTextColor 255 255 255
+Show #Banned for disclosing fishing secrets
+	Class "Fishing Rods"
+	SetFontSize 45
+	SetBorderColor 255 255 119
+	SetTextColor 255 255 119
+	PlayAlertSound 5 100	
+Show #Abyss jewels
+	Class "Abyss Jewel"
+	SetBackgroundColor 191 91 0 
+	SetTextColor 200 200 200
+	SetBorderColor191 91 0
+Show #Rare Jewels
+	Class "Jewel"	
+	Rarity Rare
+	SetBorderColor 255 255 119
+Show #Red Maps
+	Class "Maps"
+	DropLevel >= 78
+	SetFontSize 40
+	SetBorderColor 150 0 0
+	PlayAlertSound 3 100
+Show #Yellow Maps
+	Class "Maps"
+	DropLevel >= 73
+	SetFontSize 40
+	SetBorderColor 50 230 100
+Show #White Maps
+	Class "Maps"
+	DropLevel < 73
+	SetFontSize 40
+	SetBorderColor 200 200 200
+Show #Talismans
+	Class "Amulets"
+	BaseType "Talisman"
+	SetBorderColor 1 1 1
+	SetBackgroundColor 1 1 1
+	SetTextColor 255 255 255
+Show #Cards i dont have
+	Class "Divination Card"
+	BaseType "The Ruthless Ceinture" "No Traces" "The Realm" "The Eye of the Dragon" "The Blazing Fire" "Left to Fate" "Bowyer's Dream" "Dialla's Subjugation" "Heterochromia" "Mawr Blaidd" "Merciless Armament" "Pride Before The Fall" "The Artist" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Fiend" "The Formless Sea" "The Forsaken" "The Queen" "The Standoff" "The Thaumaturgist" "The Tyrant" "The Vast" "Wealth and Power"
+	SetBackgroundColor 255 255 255
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 42
+	PlayAlertSound 5 100
+Show #Expensive Cards
+	Class "Divination Card"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Queen" "Mawr Blaidd" "The Immortal" "Hunter's Reward" "The Spark and the Flame" "The Vast" "The Standoff" "The Wolf" "Abandoned Wealth"  "The Wolven King's Bite"
+	SetBackgroundColor 255 255 255 
+	SetBorderColor 0 0 0
+	SetTextColor 42 42 42
+	SetFontSize 45
+	PlayAlertSound 5 100
+Show #Less expensive Cards
+	Class "Divination Card"
+	BaseType "The Dragon's Heart" "Wealth and Power" "Pride Before the Fall" "Heterochromia" "Last Hope" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Thaumaturgist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Artist" "The Fletcher" "The Vast" "The Valkyrie" "Time-Lost Relic" "The Wind" "The Sephirot" "The Void" "The Enlightened" "The Ethereal" "The Formless Sea" "The Polymath" "The Dapper Prodigy" "The Hoarder" "The Risk" "Lucky Deck" "The Valley of Steel Boxes"
+	SetBackgroundColor 0 100 150
+	SetBorderColor 255 255 255
+	SetTextColor 0 0 0
+	SetFontSize 45
+	PlayAlertSound 7 120
+Show #Cheap Cards
+	Class "Divination Card"		
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	PlayAlertSound 8 100
+Show #Rare Gems
+	Class Gem
+	BaseType "Enhance" "Empower" "Enlighten" "Portal"
+	SetFontSize 45
+	PlayAlertSound 4 100
+	SetBackgroundColor 255 215 0
+	SetTextColor 0 0 0
+Show #Quality Gems
+	Class Gem
+	Quality > 9
+	SetBackgroundColor 210 0 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0 
+	PlayAlertSound 6 100
+	SetFontSize 30
+Show #Gems
+	Class Gem
+	SetBorderColor 124 81 50 
+Show #Coins
+	BaseType "Perandus Coin"
+	SetBorderColor 150 0 0
+	SetBackgroundColor 150 0 0
+Show #6 Links
+	LinkedSockets = 6
+	SetBackgroundColor 255 255 255 
+	SetBorderColor 0 0 0
+	SetTextColor 42 42 42
+	SetFontSize 45
+	PlayAlertSound 5 100
+Show #6 Sockets
+	Sockets 6
+	SetBackgroundColor 42 42 42
+	SetBorderColor 255 255 255
+	SetTextColor 191 244 0
+	PlayAlertSound 1 100	
+Show #5 Links
+	LinkedSockets = 5
+	SetBorderColor 255 215 0
+Show #Elder Items
+	ElderItem True
+	SetBackgroundColor 210 0 220
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+Show #Shaper Items
+	ShaperItem True
+	SetBackgroundColor 74 0 160
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+Show #Rare Top Tier Armour
+	Rarity Rare
+	BaseType "Titan Greaves" "Titan Gauntlets" "Eternal Burgonet" "Glorious Plate" "Zodiac Leather" "Slink Boots" "Slink Gloves" "Lion Pelt" "Vaal Regalia" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titanium Spirit Shield"
+	SetBorderColor 255 255 119
+	SetBackgroundColor 98 128 0
+	SetTextColor 0 0 0
+Show #Rare Top Tier Weapons
+	Rarity Rare
+	BaseType "Harbinger Bow" "Jewelled Foil" "Prophecy Wand" "Noble Claw" "Prophecy Wand" "Opal Wand"
+	SetBorderColor 255 255 119
+	SetBackgroundColor 98 128 0
+	SetTextColor 0 0 0
+Show #Chance bases
+	Rarity Normal
+	BaseType "Sorcerer Boots" "Glorious Plate"
+	SetBorderColor 74 0 160
+	SetBackgroundColor 74 0 160
+	SetTextColor 136 136 255
+Show #Expensive Bases
+	BaseType "Crystal Belt" "Opal Ring" "Steel Ring" "Marble Amulet" "Stygian Vise"
+	SetBackgroundColor 204 0 154
+	SetTextColor 191 244 0
+	PlayAlertSound 1 100
+Show #Rare Jewellery
+	Class "Amulets" "Rings" "Belts"
+	Rarity Rare
+	SetBackgroundColor 255 255 119
+	SetBorderColor 255 255 119
+	SetTextColor 0 0 0
+Show #Chromatic Recipe
+	SocketGroup RGB
+	SetBorderColor 0 255 0
+Show #Sacrifice Fragments, Prophecy Fragments, Atlas Fragments,
+	Class "Map Fragments"
+	SetFontSize 40
+	SetBackgroundColor 98 129 0
+	SetTextColor 42 42 42
+	SetBorderColor 42 42 42 
+Show #Leaguestones
+	Class "Leaguestones" 
+	SetBorderColor 255 255 255
+	SetFontSize 35
+Show #Rest of the Currency
+	Class "Currency"
+	SetBorderColor 0 73 0
+Show #Show Generic rare items
+	Class "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" "Amulets" "Rings" "Claws" 
+	Rarity Rare
+	SetFontSize 25	
+Hide #Hide all bad normal items
+	Class "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" "Amulets" "Rings" "Claws" 
+	Rarity Normal
+	SetTextColor 200 200 200 100
+	SetFontSize 25
+Hide #Hide all bad magic items
+	Class "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Sceptres" "Amulets" "Rings" "Claws" 
+	Rarity Magic
+	SetTextColor 136 136 255 130
+	SetFontSize 28	
