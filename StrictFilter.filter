@@ -2,8 +2,12 @@ Show #Unique Items
 	Rarity Unique
 	SetBorderColor  175 96 37 
 	PlayAlertSound 1 100
-Show #Lab Stuff
-	Class "Labyrinth Item" "Labyrinth Trinket" "Labyrinth Map Item"
+Show #Lab Keys
+	BaseType "Golden Key" "Silver Key" "Treasure Key"
+	SetBackgroundColor 0 191 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 42
 Show #Misc Currency
 	Class "Currency"
 	BaseType "Essence" "Remnant of Corruption" "Silver Coin"
@@ -14,14 +18,18 @@ Show #Basic Sextant
 	Class "Currency"
 	BaseType "Apprentice Cartographer's Sextant"
 	SetBackgroundColor 200 200 200
-	SetBorderColor 42 42 42
+	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-Show #Med Sextant 
+	SetFontSize 42
+	PlayAlertSound 9 120
+Show #Med Sextant
 	Class "Currency"
 	BaseType "Journeyman Cartographer's Sextant"
 	SetBackgroundColor 255 255 119
-	SetBorderColor 42 42 42
+	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
+	SetFontSize 42
+	PlayAlertSound 9 120
 Show #Top Sextant
 	Class "Currency"
 	BaseType "Master Cartographer's Sextant"
@@ -29,6 +37,7 @@ Show #Top Sextant
 	SetBorderColor 0 0 0
 	SetTextColor 255 255 255
 	SetFontSize 42
+	PlayAlertSound 9 120
 Show #Shaper Orb
 	Class "Quest Items"
 	BaseType "Shaper's Orb"
@@ -118,15 +127,31 @@ Show #Banned for disclosing fishing secrets
 	SetBorderColor 255 255 119
 	SetTextColor 255 255 119
 	PlayAlertSound 5 100	
-Show #Abyss Jewels
+Show #Rare Abyss jewels
 	Class "Abyss Jewel"
+	Rarity Rare
 	SetBackgroundColor 191 91 0 
-	SetTextColor 200 200 200
-	SetBorderColor191 91 0
+	SetTextColor 0 0 0
+	SetBorderColor 255 255 119
+Show #Magic Abyss jewels
+	Class "Abyss Jewel"
+	Rarity Magic
+	SetBackgroundColor 191 91 0 
+	SetTextColor 0 0 0
+	SetBorderColor 136 136 255
 Show #Rare Jewels
 	Class "Jewel"	
 	Rarity Rare
 	SetBorderColor 255 255 119
+Show 
+	Class "Maps"
+	ShapedMap True
+	BaseType "Vault"
+	SetBackgroundColor 124 81 50
+	SetBorderColor 124 81 50
+	SetTextColor 0 0 0
+	SetFontSize 42
+	PlayAlertSound 3 100
 Show #Red Maps
 	Class "Maps"
 	DropLevel >= 78
@@ -162,9 +187,14 @@ Show #Rare Jewellery
 	SetBackgroundColor 255 255 119
 	SetBorderColor 255 255 119
 	SetTextColor 0 0 0
+Show #This one card
+	BaseType "The Wolf's Shadow"
+	SetBorderColor 255 0 0
+	SetFontSize 45
+	PlayAlertSound 8 100
 Show #Cards I dont have yet
 	Class "Divination Card"
-	BaseType "The Ruthless Ceinture" "No Traces" "The Realm" "The Eye of the Dragon" "The Blazing Fire" "Left to Fate" "Bowyer's Dream" "Dialla's Subjugation" "Heterochromia" "Mawr Blaidd" "Merciless Armament" "Pride Before The Fall" "The Artist" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Fiend" "The Formless Sea" "The Forsaken" "The Queen" "The Standoff" "The Thaumaturgist" "The Tyrant" "The Vast" "Wealth and Power"
+	BaseType "No Traces" "Bowyer's Dream" "Heterochromia" "Mawr Blaidd" "Merciless Armament" "Pride Before the Fall" "The Artist" "The Celestial Justicar" "The Doctor" "The Dragon's Heart" "The Fiend" "The Formless Sea" "The Forsaken" "The Queen" "The Standoff" "The Thaumaturgist" "The Tyrant" "The Vast" "Wealth and Power"
 	SetBackgroundColor 255 255 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
@@ -172,7 +202,7 @@ Show #Cards I dont have yet
 	PlayAlertSound 5 100
 Show #Expensive Cards
 	Class "Divination Card"
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Queen" "Mawr Blaidd" "The Immortal" "Hunter's Reward" "The Spark and the Flame" "The Vast" "The Standoff" "The Wolf" "Abandoned Wealth" "The Wolven King's Bite"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "Mawr Blaidd" "The Immortal" "Hunter's Reward" "Abandoned Wealth" "The Wolven King's Bite" "The Formless Sea" "The Last One Standing" "The Queen"
 	SetBackgroundColor 255 255 255 
 	SetBorderColor 0 0 0
 	SetTextColor 42 42 42
@@ -180,7 +210,7 @@ Show #Expensive Cards
 	PlayAlertSound 5 100
 Show  #Less Expensive Cards
 	Class "Divination Card"
-	BaseType "The Dragon's Heart" "Wealth and Power" "Pride Before the Fall" "Heterochromia" "Last Hope" "The Celestial Justicar" "The Last One Standing" "The Hunger" "The Thaumaturgist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Artist" "The Fletcher" "The Vast" "The Valkyrie" "Time-Lost Relic" "The Wind" "The Sephirot" "The Void" "The Enlightened" "The Ethereal" "The Formless Sea" "The Polymath" "The Dapper Prodigy" "The Hoarder" "The Risk" "Lucky Deck" "The Valley of Steel Boxes"
+	BaseType "The Dragon's Heart" "Wealth and Power" "Pride Before the Fall" "Heterochromia" "Last Hope" "The Celestial Justicar" "The Hunger" "The Thaumaturgist" "The Brittle Emperor" "Bowyer's Dream" "The Saint's Treasure" "The Artist" "The Fletcher" "The Vast" "The Valkyrie" "Time-Lost Relic" "The Wind" "The Sephirot" "The Void" "The Enlightened" "The Ethereal" "The Polymath" "The Dapper Prodigy" "The Hoarder" "The Risk" "Lucky Deck" "The Valley of Steel Boxes" "The Spark and the Flame" "The Vast" "The Standoff" "The Wolf" "The King's Heart" "The Sephirot" "The Offering" "Chaotic Disposition"
 	SetBackgroundColor 0 100 150
 	SetBorderColor 255 255 255
 	SetTextColor 0 0 0
@@ -198,6 +228,14 @@ Show #Expensive Gems
 	PlayAlertSound 4 100
 	SetBackgroundColor 255 215 0
 	SetTextColor 0 0 0
+Show #High Quality Gems
+	Class Gem
+	Quality > 17
+	SetBackgroundColor 12 91 0
+	SetTextColor 255 255 255
+	SetBorderColor 12 91 0
+	PlayAlertSound 7 100
+	SetFontSize 42
 Show #Quality Gems
 	Class Gem
 	Quality > 9
@@ -252,13 +290,13 @@ Show #Rare Top Tier Armour
 	SetTextColor 0 0 0
 Show #Rare Top Tier Weapons
 	Rarity Rare
-	BaseType "Harbinger Bow" "Jewelled Foil" "Prophecy Wand" "Noble Claw" "Prophecy Wand" "Opal Wand"
+	BaseType "Harbinger Bow" "Jewelled Foil" "Prophecy Wand" "Noble Claw" "Prophecy Wand" "Opal Wand" "Siege Axe"
 	SetBorderColor 255 255 119
 	SetBackgroundColor 98 128 0
 	SetTextColor 0 0 0
 Show #Chance Bases
 	Rarity Normal
-	BaseType "Sorcerer Boots" "Glorious Plate"
+	BaseType "Sorcerer Boots" "Glorious Plate" "Gold Amulet"
 	SetBorderColor 74 0 160
 	SetBackgroundColor 74 0 160
 	SetTextColor 136 136 255
